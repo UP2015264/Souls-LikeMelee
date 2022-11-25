@@ -2050,3 +2050,688 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2022.11.25-15.40.02:166][573]AssetCheck: New page: Asset Save: T_LockOnIcon
 [2022.11.25-15.40.02:167][573]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/CombatSystem/Files/UI/T_LockOnIcon.T_LockOnIcon
 [2022.11.25-15.40.05:118][765]AssetReimport: Importing new asset /Game/CombatSystem/Files/UI/T_LockOnIcon.
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: ================================================
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Total job queries 62, among them cache hits 6 (9.68%)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Tracking 56 distinct input hashes that result in 39 distinct outputs (69.64%)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: RAM used: 0.36 MB (0.00 GB) of 2457.60 MB (2.40 GB) budget. Usage: 0.01%
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Shaders Compiled: 10
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100.00%)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Average time worker was idle: 0.70 s
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Job execution time: average 0.99 s, max 1.38 s
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Job life time (pending + execution): average 1.05 s, max 1.44
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.11 s
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Average processing rate: 4.73 jobs/sec
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Total thread time: 5.30 s
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Total thread preprocess time: 0.28 s
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Percentage time preprocessing: 5.18%
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Effective parallelization: 2.51 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.93 sec, max 0.93 sec, min 0.93 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.76 sec, max 0.76 sec, min 0.76 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.62 sec, max 0.62 sec, min 0.62 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.60% of total time (compiled    1 times, average 0.93 sec, max 0.93 sec, min 0.93 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.24% of total time (compiled    1 times, average 0.76 sec, max 0.76 sec, min 0.76 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 13.10% of total time (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.39% of total time (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 11.70% of total time (compiled    1 times, average 0.62 sec, max 0.62 sec, min 0.62 sec)
+[2022.11.25-15.44.30:015][578]LogShaderCompilers: Display: ================================================
+[2022.11.25-15.44.32:616][826]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.11.25-15.44.32:652][826]LogContentBrowser: Creating deferred item: NewFolder
+[2022.11.25-15.44.32:657][827]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.11.25-15.44.33:777][960]LogContentBrowser: Attempting asset rename: NewFolder -> Actors
+[2022.11.25-15.44.33:777][960]LogContentBrowser: End creating deferred item NewFolder
+[2022.11.25-15.44.36:612][269]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.25-15.44.36:612][269]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.25-15.44.36:612][269]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.25-15.44.38:857][269]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.11.25-15.44.38:861][269]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.11.25-15.44.38:865][269]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.11.25-15.44.38:883][271]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.11.25-15.44.45:251][ 20]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_BaseEquip
+[2022.11.25-15.44.45:256][ 20]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.11.25-15.44.46:995][228]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip.BP_BaseEquip
+[2022.11.25-15.44.46:995][228]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-15.44.47:997][228]LogViewport: Scene viewport resized to 738x398, mode Windowed.
+[2022.11.25-15.45.00:337][967]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.11.25-15.45.08:129][829]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.25-15.45.34:288][757]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-15.45.34:334][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.11.25-15.45.35:161][843]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-15.45.35:210][843]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip
+[2022.11.25-15.45.35:210][843]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseEquipCD2F8A14462BB9CB07C1A782A1B126FA.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseEquip.uasset'
+[2022.11.25-15.45.35:215][843]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 8.83 sec)
+[2022.11.25-15.45.35:220][843]AssetCheck: New page: Asset Save: BP_BaseEquip
+[2022.11.25-15.45.35:220][843]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip.BP_BaseEquip
+[2022.11.25-15.46.42:944][606]LogSlate: Took 0.043146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.11.25-15.48.24:206][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.11.25-15.48.24:208][606]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.028
+[2022.11.25-15.48.24:209][606]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_BaseEquip] ([2] browsable assets)...
+[2022.11.25-15.48.24:209][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_BaseEquip]
+[2022.11.25-15.48.24:212][606]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseEquip_Auto1
+[2022.11.25-15.48.24:212][606]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseEquip_Auto16E9EDC4E46C0F7C40DE90FBE93DE9B9B.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseEquip_Auto1.uasset'
+[2022.11.25-15.48.24:213][606]LogFileHelpers: Auto-saving content packages took 0.005
+[2022.11.25-15.53.17:497][636]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-15.53.17:541][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.11.25-15.53.18:366][709]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-15.53.18:427][709]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip
+[2022.11.25-15.53.18:428][709]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseEquip414E7C614298059DFDD0F1A0168ABAB6.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseEquip.uasset'
+[2022.11.25-15.53.18:433][709]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 8.89 sec)
+[2022.11.25-15.53.18:439][709]AssetCheck: New page: Asset Save: BP_BaseEquip
+[2022.11.25-15.53.18:439][709]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip.BP_BaseEquip
+[2022.11.25-15.53.20:795][972]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-15.53.20:834][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.11.25-15.53.21:517][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-15.53.21:578][ 46]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip
+[2022.11.25-15.53.21:578][ 46]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseEquipAE43A90E4D6B1CD6047FD9ABC81905AB.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseEquip.uasset'
+[2022.11.25-15.53.21:583][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 8.96 sec)
+[2022.11.25-15.53.21:589][ 46]AssetCheck: New page: Asset Save: BP_BaseEquip
+[2022.11.25-15.53.21:589][ 46]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip.BP_BaseEquip
+[2022.11.25-15.56.05:003][549]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-15.56.05:044][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.11.25-15.56.05:053][549]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-15.56.05:092][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.11.25-15.56.05:098][549]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-15.56.05:139][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2022.11.25-15.56.05:875][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-15.56.05:931][617]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip
+[2022.11.25-15.56.05:932][617]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseEquip4692CAD04CC1BD650C21A290CC46266B.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseEquip.uasset'
+[2022.11.25-15.56.05:935][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 9.02 sec)
+[2022.11.25-15.56.05:940][617]AssetCheck: New page: Asset Save: BP_BaseEquip
+[2022.11.25-15.56.05:940][617]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip.BP_BaseEquip
+[2022.11.25-15.58.51:869][451]LogContentBrowser: Deferred new asset file creation: BP_BaseEquip_Child
+[2022.11.25-15.58.51:903][451]LogContentBrowser: Creating deferred item: BP_BaseEquip_Child
+[2022.11.25-15.58.51:914][452]LogContentBrowser: Renaming the item being created (Deferred Item: BP_BaseEquip_Child).
+[2022.11.25-15.58.55:569][891]LogContentBrowser: Attempting asset rename: BP_BaseEquip_Child -> BP_BaseWeapon
+[2022.11.25-15.58.55:574][891]LogContentBrowser: End creating deferred item BP_BaseEquip_Child
+[2022.11.25-15.58.56:744][ 27]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2022.11.25-15.58.56:744][ 27]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-15.58.57:118][ 27]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.11.25-15.59.10:753][574]LogContentBrowser: Deferred new asset file creation: BP_BaseWeapon_Child
+[2022.11.25-15.59.10:787][574]LogContentBrowser: Creating deferred item: BP_BaseWeapon_Child
+[2022.11.25-15.59.10:799][575]LogContentBrowser: Renaming the item being created (Deferred Item: BP_BaseWeapon_Child).
+[2022.11.25-15.59.16:266][229]LogContentBrowser: Attempting asset rename: BP_BaseWeapon_Child -> BP_HeavySword
+[2022.11.25-15.59.16:272][229]LogContentBrowser: End creating deferred item BP_BaseWeapon_Child
+[2022.11.25-15.59.18:209][449]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword
+[2022.11.25-15.59.18:210][449]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-15.59.18:613][449]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.11.25-15.59.22:615][895]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-15.59.22:615][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-15.59.29:283][393]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword
+[2022.11.25-15.59.29:283][393]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.00.09:112][794]BlueprintLog: New page: Compile BP_BaseWeapon
+[2022.11.25-16.00.09:172][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.11.25-16.00.10:298][920]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.00.10:360][920]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon
+[2022.11.25-16.00.10:360][920]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseWeapon6AA35D2A42E9B31B87201E84C113EF2E.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseWeapon.uasset'
+[2022.11.25-16.00.10:364][920]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 9.09 sec)
+[2022.11.25-16.00.10:370][920]AssetCheck: New page: Asset Save: BP_BaseWeapon
+[2022.11.25-16.00.10:370][920]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2022.11.25-16.00.11:619][ 54]BlueprintLog: New page: Compile BP_HeavySword
+[2022.11.25-16.00.11:674][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.11.25-16.00.11:689][ 55]BlueprintLog: New page: Compile BP_HeavySword
+[2022.11.25-16.00.11:745][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.11.25-16.00.12:290][112]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.00.12:343][112]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_HeavySword
+[2022.11.25-16.00.12:343][112]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_HeavySwordB7DD8F814254576EDE4F15A1336CA13F.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_HeavySword.uasset'
+[2022.11.25-16.00.12:346][112]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 9.14 sec)
+[2022.11.25-16.00.12:351][112]AssetCheck: New page: Asset Save: BP_HeavySword
+[2022.11.25-16.00.12:351][112]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword
+[2022.11.25-16.00.19:736][984]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-16.00.19:799][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.11.25-16.00.20:654][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.00.20:711][ 81]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip
+[2022.11.25-16.00.20:712][ 81]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseEquipB9ABFC384DE7B69A222B319CD48B7ED1.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseEquip.uasset'
+[2022.11.25-16.00.20:717][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 9.21 sec)
+[2022.11.25-16.00.20:722][ 81]AssetCheck: New page: Asset Save: BP_BaseEquip
+[2022.11.25-16.00.20:722][ 81]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip.BP_BaseEquip
+[2022.11.25-16.00.37:536][864]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-16.00.37:597][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.11.25-16.00.38:475][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.00.38:529][958]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip
+[2022.11.25-16.00.38:529][958]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseEquip65231C744764CE9B3CD796B388AD7543.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseEquip.uasset'
+[2022.11.25-16.00.38:535][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 9.27 sec)
+[2022.11.25-16.00.38:540][958]AssetCheck: New page: Asset Save: BP_BaseEquip
+[2022.11.25-16.00.38:540][958]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip.BP_BaseEquip
+[2022.11.25-16.03.14:401][124]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-16.03.14:472][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.11.25-16.03.14:485][124]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-16.03.14:547][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.11.25-16.03.15:131][181]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.03.15:196][181]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip
+[2022.11.25-16.03.15:196][181]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseEquipC2763E0F47B9D126FD8D75AFE42FE7F5.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseEquip.uasset'
+[2022.11.25-16.03.15:202][181]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 9.34 sec)
+[2022.11.25-16.03.15:207][181]AssetCheck: New page: Asset Save: BP_BaseEquip
+[2022.11.25-16.03.15:207][181]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip.BP_BaseEquip
+[2022.11.25-16.03.18:203][524]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.03.18:203][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.03.18:234][524]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword
+[2022.11.25-16.03.18:235][524]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.03.57:858][ 59]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.11.25-16.03.57:861][ 59]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.04.07:891][447]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.11.25-16.04.16:565][947]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple
+[2022.11.25-16.04.16:577][947]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.04.16:584][947]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.25-16.04.17:284][947]LogViewport: Scene viewport resized to 1141x858, mode Windowed.
+[2022.11.25-16.04.20:223][173]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin
+[2022.11.25-16.04.20:312][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.04.20:337][173]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Quinn_Simple) ...
+[2022.11.25-16.04.20:360][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.25-16.04.20:527][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.04.20:637][173]LogViewport: Scene viewport resized to 1141x858, mode Windowed.
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: ================================================
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Total job queries 68, among them cache hits 8 (11.76%)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Tracking 60 distinct input hashes that result in 41 distinct outputs (68.33%)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: RAM used: 0.39 MB (0.00 GB) of 2457.60 MB (2.40 GB) budget. Usage: 0.02%
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Shaders Compiled: 10
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100.00%)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Average time worker was idle: 0.70 s
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Job execution time: average 0.99 s, max 1.38 s
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Job life time (pending + execution): average 1.05 s, max 1.44
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.11 s
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Average processing rate: 4.73 jobs/sec
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Total thread time: 5.30 s
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Total thread preprocess time: 0.28 s
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Percentage time preprocessing: 5.18%
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Effective parallelization: 2.51 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.93 sec, max 0.93 sec, min 0.93 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.76 sec, max 0.76 sec, min 0.76 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.62 sec, max 0.62 sec, min 0.62 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.60% of total time (compiled    1 times, average 0.93 sec, max 0.93 sec, min 0.93 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.24% of total time (compiled    1 times, average 0.76 sec, max 0.76 sec, min 0.76 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 13.10% of total time (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.39% of total time (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 11.70% of total time (compiled    1 times, average 0.62 sec, max 0.62 sec, min 0.62 sec)
+[2022.11.25-16.04.20:704][174]LogShaderCompilers: Display: ================================================
+[2022.11.25-16.04.48:497][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.11.25-16.04.48:500][649]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.106
+[2022.11.25-16.04.48:500][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Mannequins/Meshes/SK_Mannequin] ([1] browsable assets)...
+[2022.11.25-16.04.48:517][649]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin]
+[2022.11.25-16.04.48:517][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Mannequins/Meshes/SK_Mannequin]
+[2022.11.25-16.04.48:526][649]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Mannequins/Meshes/SK_Mannequin_Auto2
+[2022.11.25-16.04.48:526][649]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/SK_Mannequin_Auto29BDEBF27446E9C9829A0AF8374A7CBE0.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/Characters/Mannequins/Meshes/SK_Mannequin_Auto2.uasset'
+[2022.11.25-16.04.48:527][649]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_HeavySword] ([2] browsable assets)...
+[2022.11.25-16.04.48:532][649]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword]
+[2022.11.25-16.04.48:532][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_HeavySword]
+[2022.11.25-16.04.48:535][649]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_HeavySword_Auto2
+[2022.11.25-16.04.48:535][649]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_HeavySword_Auto2E8A077DC432F5045CB2727873A4D2B33.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_HeavySword_Auto2.uasset'
+[2022.11.25-16.04.48:536][649]LogFileHelpers: Auto-saving content packages took 0.036
+[2022.11.25-16.09.34:357][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.09.34:413][449]LogSavePackage: Moving output files for package: /Game/Characters/Mannequins/Meshes/SK_Mannequin
+[2022.11.25-16.09.34:414][449]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/SK_MannequinEDD096F5498FB1B2AA15CFBEAC8B1134.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset'
+[2022.11.25-16.09.34:419][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 9.40 sec)
+[2022.11.25-16.09.34:433][449]AssetCheck: New page: Asset Save: SK_Mannequin
+[2022.11.25-16.09.34:433][449]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin
+[2022.11.25-16.09.55:754][605]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.11.25-16.09.58:327][878]BlueprintLog: New page: Compile BP_HeavySword
+[2022.11.25-16.09.58:424][878]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.11.25-16.09.58:478][879]BlueprintLog: New page: Compile BP_HeavySword
+[2022.11.25-16.09.58:556][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.11.25-16.09.58:974][922]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.09.59:033][922]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_HeavySword
+[2022.11.25-16.09.59:034][922]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_HeavySword9663A7E1428DF11418F5C0924407770B.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_HeavySword.uasset'
+[2022.11.25-16.09.59:039][922]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 9.46 sec)
+[2022.11.25-16.09.59:049][922]AssetCheck: New page: Asset Save: BP_HeavySword
+[2022.11.25-16.09.59:049][922]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword
+[2022.11.25-16.10.51:013][938]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.25-16.10.51:014][938]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.25-16.10.51:014][938]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.25-16.15.11:652][692]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'AActor::GetTransform' [Element not found.]
+[2022.11.25-16.15.41:915][ 91]LogEditorTransaction: Undo Move Nodes
+[2022.11.25-16.15.42:098][ 91]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.25-16.15.42:100][ 91]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.25-16.16.02:802][995]BlueprintLog: New page: Compile BP_MainCharacter
+[2022.11.25-16.16.02:904][995]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.11.25-16.16.03:685][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.16.03:758][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_MainCharacter" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2022.11.25-16.16.03:768][ 56]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_MainCharacter
+[2022.11.25-16.16.03:769][ 56]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacter2F37266F48A338C3C7D4C69E9D6FE4AE.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset'
+[2022.11.25-16.16.03:774][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 9.55 sec)
+[2022.11.25-16.16.03:788][ 56]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2022.11.25-16.16.03:788][ 56]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.11.25-16.16.19:115][302]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.25-16.16.19:120][302]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2022.11.25-16.16.19:120][302]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.25-16.16.19:120][302]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.25-16.16.19:121][302]LogWorldPartition: Display: GetPartitionedActors took 12 us
+[2022.11.25-16.16.19:121][302]LogWorldPartition: Display: GenerateStreaming took 154 us
+[2022.11.25-16.16.19:121][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.25-16.16.19:121][302]PIE: New page: PIE session: ThirdPersonMap (25 Nov 2022, 16:16:19)
+[2022.11.25-16.16.19:124][302]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.11.25-16.16.19:124][302]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.11.25-16.16.19:124][302]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.25-16.16.19:126][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002570s)
+[2022.11.25-16.16.19:126][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002596s)
+[2022.11.25-16.16.19:126][302]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.16.19:127][302]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.25-16.16.19:127][302]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2022.11.25-16.16.19:127][302]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.25-16.16.19:127][302]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2022.11.25-16.16.19:128][302]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2022.11.25-16.16.19:128][302]LogWorldPartition: Display: WorldPartition initialize took 578 us (total: 135 ms)
+[2022.11.25-16.16.19:128][302]LogPlayLevel: PIE: World Init took: (0.001401s)
+[2022.11.25-16.16.19:186][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.11.25-16.16.19:191][302]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.11.25-16.16.19:191][302]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.25-16.16.19:191][302]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.25-16.16.19:191][302]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.25-16.16.19:191][302]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.25-16.16.19:191][302]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.25-16.16.19:191][302]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.25-16.16.19:191][302]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.25-16.16.19:191][302]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.25-16.16.19:192][302]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.25-16.16.19:192][302]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.25-16.16.19:192][302]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.25-16.16.19:194][302]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.25-16.16.19:352][302]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2022.11.25-16.16.19:352][302]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.25-16.16.19:352][302]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.25-16.16.19:352][302]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.25-16.16.19:353][302]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.11.25-16.16.19:353][302]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=2
+[2022.11.25-16.16.19:354][302]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.11.25-16.16.19:354][302]LogInit: FAudioDevice initialized.
+[2022.11.25-16.16.19:354][302]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.11.25-16.16.19:354][302]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2022.11.25-16.16.19:357][302]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.25-16.16.19:358][302]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.25-16.16.19
+[2022.11.25-16.16.19:358][302]LogWorld: Bringing up level for play took: 0.001190
+[2022.11.25-16.16.19:360][302]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2022.11.25-16.16.19:371][302]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.25-16.16.19:372][302]PIE: Server logged in
+[2022.11.25-16.16.19:372][302]PIE: Play in editor total start time 0.253 seconds.
+[2022.11.25-16.16.21:292][492]LogCharacterMovement: BP_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-105.19 Y=-488.81 Z=0.00 Location: X=1163.40 Y=2182.33 Z=92.21 Normal: X=0.98 Y=-0.19 Z=-0.00 PenetrationDepth:18.925 Actor:BP_HeavySword_C_0 Component:ItemStaticMesh BoneName:None (0 other events since notify)
+[2022.11.25-16.16.24:175][838]LogCharacterMovement: BP_MainCharacter_C_0 is stuck and failed to move! Velocity: X=-146.64 Y=-261.71 Z=0.00 Location: X=1163.49 Y=1865.29 Z=92.21 Normal: X=0.89 Y=-0.45 Z=0.00 PenetrationDepth:20.054 Actor:BP_HeavySword_C_0 Component:ItemStaticMesh BoneName:None (2 other events since notify)
+[2022.11.25-16.16.24:688][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.25-16.16.24:688][896]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.25-16.16.24:688][896]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.16.24:688][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.16.24:688][896]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2022.11.25-16.16.24:691][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.25-16.16.24:700][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.16.24:760][896]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.25-16.16.24:761][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.25-16.16.24:762][896]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.25-16.16.24:766][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.25-16.16.24:813][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.11.25-16.16.24:844][897]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.11.25-16.16.55:093][ 76]BlueprintLog: New page: Compile BP_BaseEquip
+[2022.11.25-16.16.55:233][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.11.25-16.16.55:796][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.16.55:861][129]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip
+[2022.11.25-16.16.55:861][129]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseEquipE7A54C454D3BD1C0EDF6ED9AFA0CE78A.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseEquip.uasset'
+[2022.11.25-16.16.55:867][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 9.62 sec)
+[2022.11.25-16.16.55:875][129]AssetCheck: New page: Asset Save: BP_BaseEquip
+[2022.11.25-16.16.55:875][129]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseEquip.BP_BaseEquip
+[2022.11.25-16.17.05:407][997]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.25-16.17.05:411][997]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2022.11.25-16.17.05:412][997]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.25-16.17.05:412][997]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.25-16.17.05:412][997]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 17 us)
+[2022.11.25-16.17.05:412][997]LogWorldPartition: Display: GenerateStreaming took 142 us (total: 296 us)
+[2022.11.25-16.17.05:412][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.25-16.17.05:412][997]PIE: New page: PIE session: ThirdPersonMap (25 Nov 2022, 16:17:05)
+[2022.11.25-16.17.05:458][997]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.25-16.17.05:461][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002601s)
+[2022.11.25-16.17.05:461][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002635s)
+[2022.11.25-16.17.05:461][997]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.17.05:461][997]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.25-16.17.05:462][997]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2022.11.25-16.17.05:462][997]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.25-16.17.05:462][997]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2022.11.25-16.17.05:462][997]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2022.11.25-16.17.05:462][997]LogWorldPartition: Display: WorldPartition initialize took 561 us (total: 135 ms)
+[2022.11.25-16.17.05:462][997]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2022.11.25-16.17.05:521][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.11.25-16.17.05:534][997]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.11.25-16.17.05:534][997]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.25-16.17.05:534][997]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.25-16.17.05:534][997]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.25-16.17.05:534][997]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.25-16.17.05:534][997]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.25-16.17.05:534][997]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.25-16.17.05:534][997]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.25-16.17.05:534][997]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.25-16.17.05:534][997]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.25-16.17.05:534][997]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.25-16.17.05:534][997]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.25-16.17.05:536][997]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.25-16.17.05:691][997]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2022.11.25-16.17.05:691][997]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.25-16.17.05:691][997]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.25-16.17.05:691][997]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.25-16.17.05:692][997]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.11.25-16.17.05:692][997]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2022.11.25-16.17.05:693][997]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.11.25-16.17.05:693][997]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.11.25-16.17.05:693][997]LogInit: FAudioDevice initialized.
+[2022.11.25-16.17.05:693][997]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2022.11.25-16.17.05:699][997]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.25-16.17.05:701][997]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.25-16.17.05
+[2022.11.25-16.17.05:701][997]LogWorld: Bringing up level for play took: 0.001197
+[2022.11.25-16.17.05:702][997]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2022.11.25-16.17.05:705][997]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.25-16.17.05:706][997]PIE: Server logged in
+[2022.11.25-16.17.05:706][997]PIE: Play in editor total start time 0.295 seconds.
+[2022.11.25-16.17.17:768][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.25-16.17.17:768][423]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.25-16.17.17:768][423]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.17.17:768][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.17.17:768][423]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2022.11.25-16.17.17:771][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.25-16.17.17:778][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.17.17:838][423]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.25-16.17.17:839][423]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.25-16.17.17:840][423]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.25-16.17.17:844][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.25-16.17.17:847][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.11.25-16.17.17:875][424]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.11.25-16.17.43:864][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.11.25-16.17.43:866][765]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.060
+[2022.11.25-16.17.43:867][765]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon] ([2] browsable assets)...
+[2022.11.25-16.17.43:867][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon]
+[2022.11.25-16.17.43:870][765]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto3
+[2022.11.25-16.17.43:870][765]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseWeapon_Auto3CCB1D7904E45687B4AFA9488A495A292.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto3.uasset'
+[2022.11.25-16.17.43:871][765]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_HeavySword] ([2] browsable assets)...
+[2022.11.25-16.17.43:903][765]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword]
+[2022.11.25-16.17.43:903][765]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_HeavySword]
+[2022.11.25-16.17.43:906][765]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_HeavySword_Auto3
+[2022.11.25-16.17.43:906][765]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_HeavySword_Auto3C33E20374E0D0198A9637DA00BB89691.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_HeavySword_Auto3.uasset'
+[2022.11.25-16.17.43:907][765]LogFileHelpers: Auto-saving content packages took 0.041
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: ================================================
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Total job queries 93, among them cache hits 14 (15.05%)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Tracking 67 distinct input hashes that result in 48 distinct outputs (71.64%)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: RAM used: 0.43 MB (0.00 GB) of 2457.60 MB (2.40 GB) budget. Usage: 0.02%
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Shaders Compiled: 17
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Jobs assigned 25, completed 17 (68.00%)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Average time worker was idle: 1186.70 s
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.80 s
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Job execution time: average 0.87 s, max 1.38 s
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Job life time (pending + execution): average 0.93 s, max 1.44
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.42 s
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Jobs were issued in 25 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Average processing rate: 3.84 jobs/sec
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Total thread time: 8.86 s
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Total thread preprocess time: 0.50 s
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Percentage time preprocessing: 5.67%
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Effective parallelization: 2.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.70 sec, max 0.93 sec, min 0.58 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.67 sec, max 0.76 sec, min 0.63 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.75% of total time (compiled    3 times, average 0.70 sec, max 0.93 sec, min 0.58 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.85% of total time (compiled    3 times, average 0.67 sec, max 0.76 sec, min 0.63 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 11.95% of total time (compiled    2 times, average 0.53 sec, max 0.62 sec, min 0.44 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:                                                  FHitProxyVS - 11.21% of total time (compiled    2 times, average 0.50 sec, max 0.58 sec, min 0.41 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display:                                                  FHitProxyPS - 8.29% of total time (compiled    2 times, average 0.37 sec, max 0.47 sec, min 0.27 sec)
+[2022.11.25-16.18.13:261][ 32]LogShaderCompilers: Display: ================================================
+[2022.11.25-16.18.32:395][863]LogSlate: Window 'Project Settings' being destroyed
+[2022.11.25-16.18.32:399][863]LogSlate: Window 'Project Settings' being destroyed
+[2022.11.25-16.18.44:211][220]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Characters/Input/IMC_Default.IMC_Default
+[2022.11.25-16.19.29:802][733]LogSlate: Window 'Save Asset As' being destroyed
+[2022.11.25-16.21.11:437][231]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.21.11:486][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Input/IMC_Default" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Characters/Input/IMC_Default.uasset" SILENT=true
+[2022.11.25-16.21.11:488][231]LogSavePackage: Moving output files for package: /Game/Characters/Input/IMC_Default
+[2022.11.25-16.21.11:489][231]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/IMC_DefaultA8D397504E64155E176DAA9C779749CC.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Characters/Input/IMC_Default.uasset'
+[2022.11.25-16.21.11:493][231]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 9.68 sec)
+[2022.11.25-16.21.11:507][231]AssetCheck: New page: Asset Save: IMC_Default
+[2022.11.25-16.21.11:507][231]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Characters/Input/IMC_Default.IMC_Default
+[2022.11.25-16.21.17:098][813]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.21.17:098][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.21.17:137][813]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.21.17:137][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.21.17:807][865]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.21.17:807][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.21.20:365][137]BlueprintLog: New page: Compile BP_BaseWeapon
+[2022.11.25-16.21.20:515][137]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.11.25-16.21.21:004][184]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.21.21:055][184]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon
+[2022.11.25-16.21.21:056][184]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseWeapon4B9F0F494E7D7206D1274D883C6788A5.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseWeapon.uasset'
+[2022.11.25-16.21.21:060][184]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 9.74 sec)
+[2022.11.25-16.21.21:072][184]AssetCheck: New page: Asset Save: BP_BaseWeapon
+[2022.11.25-16.21.21:072][184]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2022.11.25-16.21.22:444][326]BlueprintLog: New page: Compile BP_HeavySword
+[2022.11.25-16.21.22:562][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.11.25-16.21.23:047][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.21.23:112][368]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_HeavySword
+[2022.11.25-16.21.23:113][368]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_HeavySword28A3FC07491328A475784EB6A6D9BF48.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_HeavySword.uasset'
+[2022.11.25-16.21.23:117][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 9.81 sec)
+[2022.11.25-16.21.23:129][368]AssetCheck: New page: Asset Save: BP_HeavySword
+[2022.11.25-16.21.23:129][368]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword
+[2022.11.25-16.21.27:431][772]LogViewport: Scene viewport resized to 738x398, mode Windowed.
+[2022.11.25-16.21.31:589][118]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.25-16.21.31:593][118]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2022.11.25-16.21.31:594][118]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.25-16.21.31:594][118]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.25-16.21.31:594][118]LogWorldPartition: Display: GetPartitionedActors took 9 us (total: 26 us)
+[2022.11.25-16.21.31:594][118]LogWorldPartition: Display: GenerateStreaming took 233 us (total: 530 us)
+[2022.11.25-16.21.31:595][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.25-16.21.31:595][118]PIE: New page: PIE session: ThirdPersonMap (25 Nov 2022, 16:21:31)
+[2022.11.25-16.21.31:627][118]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.25-16.21.31:630][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002653s)
+[2022.11.25-16.21.31:630][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002686s)
+[2022.11.25-16.21.31:630][118]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.21.31:630][118]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.25-16.21.31:630][118]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2022.11.25-16.21.31:630][118]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.25-16.21.31:630][118]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2022.11.25-16.21.31:631][118]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2022.11.25-16.21.31:631][118]LogWorldPartition: Display: WorldPartition initialize took 577 us (total: 136 ms)
+[2022.11.25-16.21.31:631][118]LogPlayLevel: PIE: World Init took: (0.001411s)
+[2022.11.25-16.21.31:689][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.11.25-16.21.31:696][118]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.11.25-16.21.31:696][118]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.25-16.21.31:696][118]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.25-16.21.31:696][118]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.25-16.21.31:696][118]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.25-16.21.31:696][118]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.25-16.21.31:696][118]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.25-16.21.31:696][118]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.25-16.21.31:696][118]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.25-16.21.31:696][118]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.25-16.21.31:696][118]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.25-16.21.31:696][118]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.25-16.21.31:698][118]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.25-16.21.31:858][118]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2022.11.25-16.21.31:859][118]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.25-16.21.31:859][118]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.25-16.21.31:859][118]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.25-16.21.31:859][118]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.11.25-16.21.31:859][118]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2022.11.25-16.21.31:861][118]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.11.25-16.21.31:861][118]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.11.25-16.21.31:861][118]LogInit: FAudioDevice initialized.
+[2022.11.25-16.21.31:861][118]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2022.11.25-16.21.31:863][118]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.25-16.21.31:865][118]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.25-16.21.31
+[2022.11.25-16.21.31:865][118]LogWorld: Bringing up level for play took: 0.001194
+[2022.11.25-16.21.31:866][118]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2022.11.25-16.21.31:869][118]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.25-16.21.31:869][118]PIE: Server logged in
+[2022.11.25-16.21.31:870][118]PIE: Play in editor total start time 0.277 seconds.
+[2022.11.25-16.21.35:698][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.25-16.21.35:698][568]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.25-16.21.35:698][568]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.21.35:698][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.21.35:698][568]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2022.11.25-16.21.35:701][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.25-16.21.35:708][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.21.35:768][568]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.25-16.21.35:768][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.11.25-16.21.35:769][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.11.25-16.21.35:773][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.25-16.21.35:776][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.11.25-16.21.35:806][569]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.11.25-16.21.39:465][890]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.11.25-16.22.47:973][732]LogSlate: Window 'Color Picker' being destroyed
+[2022.11.25-16.22.54:059][388]LogSlate: Window 'Color Picker' being destroyed
+[2022.11.25-16.22.58:334][877]BlueprintLog: New page: Compile BP_MainCharacter
+[2022.11.25-16.22.58:439][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.11.25-16.22.58:993][921]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.22.59:044][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_MainCharacter" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2022.11.25-16.22.59:054][921]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_MainCharacter
+[2022.11.25-16.22.59:055][921]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacterB2E2861E489976C6B98F23AD688F7882.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset'
+[2022.11.25-16.22.59:060][921]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 9.88 sec)
+[2022.11.25-16.22.59:074][921]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2022.11.25-16.22.59:074][921]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.11.25-16.26.20:161][312]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Characters/Input/Actions/IA_ToggleCombat.IA_ToggleCombat
+[2022.11.25-16.26.25:081][869]LogViewport: Scene viewport resized to 738x398, mode Windowed.
+[2022.11.25-16.26.25:964][869]LogViewport: Scene viewport resized to 562x269, mode Windowed.
+[2022.11.25-16.26.27:849][876]LogViewport: Scene viewport resized to 738x398, mode Windowed.
+[2022.11.25-16.26.28:397][876]LogViewport: Scene viewport resized to 562x682, mode Windowed.
+[2022.11.25-16.26.30:231][888]LogViewport: Scene viewport resized to 738x398, mode Windowed.
+[2022.11.25-16.26.31:448][ 15]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.11.25-16.26.32:729][140]LogViewport: Scene viewport resized to 738x398, mode Windowed.
+[2022.11.25-16.26.33:331][140]LogViewport: Scene viewport resized to 562x269, mode Windowed.
+[2022.11.25-16.26.34:649][145]LogViewport: Scene viewport resized to 738x398, mode Windowed.
+[2022.11.25-16.26.38:231][145]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.11.25-16.28.41:671][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2022.11.25-16.28.41:680][829]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.075
+[2022.11.25-16.28.41:680][829]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_MainCharacter] ([2] browsable assets)...
+[2022.11.25-16.28.41:712][829]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter]
+[2022.11.25-16.28.41:712][829]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_MainCharacter]
+[2022.11.25-16.28.41:723][829]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_MainCharacter_Auto4
+[2022.11.25-16.28.41:723][829]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacter_Auto4E4657C6142C5DA14BB8F1D86A207FBC9.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_MainCharacter_Auto4.uasset'
+[2022.11.25-16.28.41:723][829]LogFileHelpers: Auto-saving content packages took 0.044
+[2022.11.25-16.29.49:344][650]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple
+[2022.11.25-16.29.49:346][650]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.29.49:353][650]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.25-16.29.49:492][650]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2022.11.25-16.29.49:615][650]LogViewport: Scene viewport resized to 1141x858, mode Windowed.
+[2022.11.25-16.29.53:612][715]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin
+[2022.11.25-16.29.53:612][715]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.29.53:621][715]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.11.25-16.29.53:737][715]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.29.53:868][715]LogViewport: Scene viewport resized to 1141x858, mode Windowed.
+[2022.11.25-16.37.36:756][625]LogDerivedDataCache: C:/Users/rewri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:31.149 and deleted 0 files with total size 0 MiB. Scanned 16348 files in 15492 folders with total size 1207 MiB.
+[2022.11.25-16.38.42:100][820]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2022.11.25-16.38.42:106][820]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.070
+[2022.11.25-16.38.42:106][820]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/BP_MainCharacter] ([2] browsable assets)...
+[2022.11.25-16.38.42:106][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_MainCharacter]
+[2022.11.25-16.38.42:117][820]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_MainCharacter_Auto5
+[2022.11.25-16.38.42:117][820]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacter_Auto5A8382FA8483FC3E03C5337BAE474C2D2.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_MainCharacter_Auto5.uasset'
+[2022.11.25-16.38.42:117][820]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Mannequins/Meshes/SK_Mannequin] ([1] browsable assets)...
+[2022.11.25-16.38.42:117][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Mannequins/Meshes/SK_Mannequin]
+[2022.11.25-16.38.42:127][820]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Mannequins/Meshes/SK_Mannequin_Auto5
+[2022.11.25-16.38.42:127][820]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/SK_Mannequin_Auto51A53CAFF491D391575434E992F61B3ED.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/Characters/Mannequins/Meshes/SK_Mannequin_Auto5.uasset'
+[2022.11.25-16.38.42:127][820]LogFileHelpers: Auto-saving content packages took 0.021
+[2022.11.25-16.44.07:138][149]BlueprintLog: New page: Compile BP_MainCharacter
+[2022.11.25-16.44.07:257][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.11.25-16.44.07:864][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.44.07:916][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_MainCharacter" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2022.11.25-16.44.07:927][211]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_MainCharacter
+[2022.11.25-16.44.07:927][211]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacter12C802F84B45D386E4D9A298CC2B3803.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset'
+[2022.11.25-16.44.07:932][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 9.94 sec)
+[2022.11.25-16.44.07:948][211]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2022.11.25-16.44.07:948][211]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.11.25-16.44.15:974][770]LogViewport: Scene viewport resized to 738x497, mode Windowed.
+[2022.11.25-16.44.19:035][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.11.25-16.44.19:098][ 21]LogSavePackage: Moving output files for package: /Game/Characters/Mannequins/Meshes/SK_Mannequin
+[2022.11.25-16.44.19:098][ 21]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/SK_MannequinFFA9850641DB08B04194B589B166C3AD.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset'
+[2022.11.25-16.44.19:103][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 10.0 sec)
+[2022.11.25-16.44.19:114][ 21]AssetCheck: New page: Asset Save: SK_Mannequin
+[2022.11.25-16.44.19:114][ 21]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin
+[2022.11.25-16.44.27:702][679]LogEditorViewport: Clicking Background
+[2022.11.25-16.44.28:678][772]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.25-16.44.28:683][772]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2022.11.25-16.44.28:684][772]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.25-16.44.28:684][772]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.25-16.44.28:684][772]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 34 us)
+[2022.11.25-16.44.28:684][772]LogWorldPartition: Display: GenerateStreaming took 183 us (total: 713 us)
+[2022.11.25-16.44.28:684][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.25-16.44.28:684][772]PIE: New page: PIE session: ThirdPersonMap (25 Nov 2022, 16:44:28)
+[2022.11.25-16.44.28:714][772]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.25-16.44.28:716][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002659s)
+[2022.11.25-16.44.28:716][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002690s)
+[2022.11.25-16.44.28:717][772]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.25-16.44.28:717][772]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.11.25-16.44.28:717][772]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2022.11.25-16.44.28:717][772]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.25-16.44.28:717][772]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2022.11.25-16.44.28:718][772]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2022.11.25-16.44.28:718][772]LogWorldPartition: Display: WorldPartition initialize took 584 us (total: 136 ms)
+[2022.11.25-16.44.28:718][772]LogPlayLevel: PIE: World Init took: (0.001426s)
+[2022.11.25-16.44.28:777][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.11.25-16.44.28:782][772]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.11.25-16.44.28:782][772]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.25-16.44.28:782][772]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.25-16.44.28:782][772]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.25-16.44.28:782][772]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.25-16.44.28:782][772]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.25-16.44.28:782][772]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.25-16.44.28:782][772]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.25-16.44.28:782][772]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.25-16.44.28:782][772]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.25-16.44.28:782][772]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.25-16.44.28:782][772]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.25-16.44.28:785][772]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.25-16.44.28:943][772]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2022.11.25-16.44.28:944][772]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.25-16.44.28:944][772]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.25-16.44.28:944][772]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.25-16.44.28:945][772]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.11.25-16.44.28:945][772]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2022.11.25-16.44.28:946][772]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.11.25-16.44.28:946][772]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.11.25-16.44.28:946][772]LogInit: FAudioDevice initialized.
+[2022.11.25-16.44.28:946][772]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2022.11.25-16.44.28:948][772]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.11.25-16.44.28:949][772]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.11.25-16.44.28
+[2022.11.25-16.44.28:949][772]LogWorld: Bringing up level for play took: 0.001072
+[2022.11.25-16.44.28:951][772]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2022.11.25-16.44.28:953][772]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.11.25-16.44.28:954][772]PIE: Server logged in
+[2022.11.25-16.44.28:955][772]PIE: Play in editor total start time 0.272 seconds.
+[2022.11.25-16.44.37:094][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.25-16.44.37:095][330]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.11.25-16.44.37:095][330]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.44.37:095][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.44.37:095][330]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2022.11.25-16.44.37:098][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.25-16.44.37:105][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.44.37:165][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.25-16.44.37:165][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.11.25-16.44.37:167][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.11.25-16.44.37:174][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.11.25-16.44.37:207][331]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.11.25-16.44.39:255][450]LogViewport: Scene viewport resized to 1141x858, mode Windowed.
+[2022.11.25-16.45.58:909][394]LogSlate: Window 'SK_Mannequin' being destroyed
+[2022.11.25-16.45.58:912][394]LogSlate: Window 'SK_Mannequin' being destroyed
+[2022.11.25-16.45.58:954][394]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.45.58:954][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.45.59:025][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.25-16.45.59:025][394]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.45.59:025][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.45.59:081][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.25-16.45.59:081][394]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.45.59:081][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.45.59:135][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.25-16.45.59:135][394]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.45.59:135][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.45.59:207][394]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.45.59:207][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.45.59:250][394]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.45.59:250][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.25-16.45.59:285][394]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.11.25-16.45.59:285][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
