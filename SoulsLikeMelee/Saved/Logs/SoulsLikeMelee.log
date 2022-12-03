@@ -2142,3 +2142,504 @@ Script Stack (0 frames) :
 [2022.12.03-13.52.00:954][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 2.37 sec)
 [2022.12.03-13.52.00:961][919]AssetCheck: New page: Asset Save: BPI_Interactable
 [2022.12.03-13.52.00:961][919]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Interfaces/BPI_Interactable.BPI_Interactable
+[2022.12.03-13.54.17:825][ 66]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Characters/Input/IMC_Default.IMC_Default
+[2022.12.03-13.56.02:966][445]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2022.12.03-13.56.02:969][445]LogContentBrowser: Creating deferred item: NewInputAction
+[2022.12.03-13.56.02:973][446]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2022.12.03-13.56.06:413][859]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Interact
+[2022.12.03-13.56.06:414][859]LogContentBrowser: End creating deferred item NewInputAction
+[2022.12.03-13.56.07:556][994]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Characters/Input/Actions/IA_Interact.IA_Interact
+[2022.12.03-13.56.15:527][919]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.56.15:582][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Input/IMC_Default" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Characters/Input/IMC_Default.uasset" SILENT=true
+[2022.12.03-13.56.15:584][919]LogSavePackage: Moving output files for package: /Game/Characters/Input/IMC_Default
+[2022.12.03-13.56.15:584][919]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/IMC_DefaultF6A83B6A496B5DA12FD6E3BDADF79454.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Characters/Input/IMC_Default.uasset'
+[2022.12.03-13.56.15:589][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 2.43 sec)
+[2022.12.03-13.56.15:596][919]AssetCheck: New page: Asset Save: IMC_Default
+[2022.12.03-13.56.15:596][919]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Characters/Input/IMC_Default.IMC_Default
+[2022.12.03-13.56.26:297][189]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Characters/Input/Actions/IA_Look.IA_Look
+[2022.12.03-13.56.29:960][619]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Characters/Input/Actions/IA_Jump.IA_Jump
+[2022.12.03-13.56.32:648][933]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Characters/Input/Actions/IA_Move.IA_Move
+[2022.12.03-13.56.36:571][397]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Characters/Input/Actions/IA_ToggleCombat.IA_ToggleCombat
+[2022.12.03-13.56.44:448][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-13.56.44:498][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Input/Actions/IA_Interact" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Characters/Input/Actions/IA_Interact.uasset" SILENT=true
+[2022.12.03-13.56.44:499][324]LogSavePackage: Moving output files for package: /Game/Characters/Input/Actions/IA_Interact
+[2022.12.03-13.56.44:499][324]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/IA_Interact1E58F3884B6FC6E27D458484FCB5EF3E.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Characters/Input/Actions/IA_Interact.uasset'
+[2022.12.03-13.56.44:502][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 2.48 sec)
+[2022.12.03-13.56.44:510][324]AssetCheck: New page: Asset Save: IA_Interact
+[2022.12.03-13.56.44:510][324]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Characters/Input/Actions/IA_Interact.IA_Interact
+[2022.12.03-13.57.12:490][488]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.12.03-13.57.12:490][488]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-13.57.59:155][853]LogSlate: Window 'Color Picker' being destroyed
+[2022.12.03-13.58.04:448][438]LogSlate: Window 'Color Picker' being destroyed
+[2022.12.03-13.59.57:866][137]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetSystemLibrary::SphereTraceSingleForObjects' [Element not found.]
+[2022.12.03-14.00.21:251][392]BlueprintLog: New page: Compile BP_MainCharacter
+[2022.12.03-14.00.21:259][392]LogBlueprint: Error: [AssetLog] G:\Unreal\Projects\Souls-LikeMelee\SoulsLikeMelee\Content\CombatSystem\Blueprints\BP_MainCharacter.uasset: [Compiler] The current value (ObjectTypeQuery1) of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2022.12.03-14.00.21:375][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2022.12.03-14.00.21:836][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.00.21:896][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_MainCharacter" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2022.12.03-14.00.21:909][436]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_MainCharacter
+[2022.12.03-14.00.21:909][436]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacterBE59FEC8447288F535C9BA8A5E8C48FA.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset'
+[2022.12.03-14.00.21:916][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 2.56 sec)
+[2022.12.03-14.00.21:926][436]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2022.12.03-14.00.21:927][436]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.12.03-14.01.09:548][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.12.03-14.01.09:558][302]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.039
+[2022.12.03-14.01.09:559][302]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_MainCharacter] ([2] browsable assets)...
+[2022.12.03-14.01.09:570][302]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter]
+[2022.12.03-14.01.09:570][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_MainCharacter]
+[2022.12.03-14.01.09:583][302]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_MainCharacter_Auto2
+[2022.12.03-14.01.09:583][302]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacter_Auto2B10BC27042709AF0702A24A520A1179B.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_MainCharacter_Auto2.uasset'
+[2022.12.03-14.01.09:584][302]LogFileHelpers: Auto-saving content packages took 0.026
+[2022.12.03-14.03.09:134][223]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetSystemLibrary::SphereTraceSingleForObjects' [The specified module could not be found.]
+[2022.12.03-14.04.48:709][977]BlueprintLog: New page: Compile BP_MainCharacter
+[2022.12.03-14.04.48:774][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2022.12.03-14.04.49:663][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.04.49:721][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_MainCharacter" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2022.12.03-14.04.49:736][ 64]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_MainCharacter
+[2022.12.03-14.04.49:737][ 64]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacterA7C29FFA41FB6BE3B763F2B1D3AEB294.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset'
+[2022.12.03-14.04.49:742][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 2.64 sec)
+[2022.12.03-14.04.49:749][ 64]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2022.12.03-14.04.49:749][ 64]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.12.03-14.05.16:626][243]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.03-14.05.16:631][243]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2022.12.03-14.05.16:631][243]LogWorldPartition: Display: GenerateStreaming started...
+[2022.12.03-14.05.16:631][243]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.12.03-14.05.16:631][243]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 49 us)
+[2022.12.03-14.05.16:632][243]LogWorldPartition: Display: GenerateStreaming took 154 us (total: 16 ms)
+[2022.12.03-14.05.16:632][243]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.12.03-14.05.16:632][243]LogPlayLevel: [PlayLevel] Compiling CombatComponent before play...
+[2022.12.03-14.05.16:665][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.12.03-14.05.16:673][243]LogPlayLevel: PlayLevel: Blueprint regeneration took 40 ms (1 blueprints)
+[2022.12.03-14.05.16:673][243]PIE: New page: PIE session: ThirdPersonMap (3 Dec 2022, 14:05:16)
+[2022.12.03-14.05.16:673][243]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.12.03-14.05.16:675][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002426s)
+[2022.12.03-14.05.16:675][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002454s)
+[2022.12.03-14.05.16:675][243]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-14.05.16:675][243]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.12.03-14.05.16:676][243]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2022.12.03-14.05.16:676][243]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.03-14.05.16:676][243]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2022.12.03-14.05.16:677][243]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2022.12.03-14.05.16:677][243]LogWorldPartition: Display: WorldPartition initialize took 559 us (total: 1.86 sec)
+[2022.12.03-14.05.16:677][243]LogPlayLevel: PIE: World Init took: (0.001373s)
+[2022.12.03-14.05.16:701][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.12.03-14.05.16:704][243]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.12.03-14.05.16:704][243]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.03-14.05.16:704][243]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.03-14.05.16:704][243]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.03-14.05.16:704][243]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.03-14.05.16:704][243]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.03-14.05.16:704][243]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.03-14.05.16:704][243]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.03-14.05.16:704][243]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.03-14.05.16:704][243]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.03-14.05.16:704][243]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.03-14.05.16:704][243]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.03-14.05.16:775][243]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.03-14.05.16:958][243]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2022.12.03-14.05.16:958][243]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.03-14.05.16:958][243]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.03-14.05.16:958][243]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.03-14.05.16:960][243]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2022.12.03-14.05.16:960][243]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=8
+[2022.12.03-14.05.16:961][243]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2022.12.03-14.05.16:961][243]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2022.12.03-14.05.16:961][243]LogInit: FAudioDevice initialized.
+[2022.12.03-14.05.16:961][243]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2022.12.03-14.05.16:963][243]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.12.03-14.05.16:965][243]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.12.03-14.05.16
+[2022.12.03-14.05.16:965][243]LogWorld: Bringing up level for play took: 0.001121
+[2022.12.03-14.05.16:966][243]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2022.12.03-14.05.16:969][243]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.12.03-14.05.16:969][243]PIE: Server logged in
+[2022.12.03-14.05.16:970][243]PIE: Play in editor total start time 0.339 seconds.
+[2022.12.03-14.05.29:318][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-14.05.29:318][716]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.12.03-14.05.29:318][716]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-14.05.29:318][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-14.05.29:318][716]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2022.12.03-14.05.29:321][716]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.03-14.05.29:326][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-14.05.29:353][716]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.03-14.05.29:353][716]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.12.03-14.05.29:355][716]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.12.03-14.05.29:359][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-14.05.29:361][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.12.03-14.05.29:405][717]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2022.12.03-14.07.08:526][844]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-14.07.08:527][844]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-14.07.08:527][844]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-14.07.09:252][844]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.12.03-14.07.09:258][844]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.12.03-14.07.09:263][844]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.12.03-14.07.09:270][845]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.12.03-14.07.19:361][774]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_PickupActor
+[2022.12.03-14.07.19:365][774]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.12.03-14.07.24:789][ 20]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor
+[2022.12.03-14.07.24:789][ 20]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-14.07.25:180][ 20]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.12.03-14.08.10:221][597]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-14.08.10:222][597]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-14.08.10:222][597]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-14.09.22:370][364]BlueprintLog: New page: Compile BP_PickupActor
+[2022.12.03-14.09.22:418][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.12.03-14.09.23:380][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.09.23:431][471]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_PickupActor
+[2022.12.03-14.09.23:431][471]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_PickupActorD138FB274DC623613F7FF384CD7D8C93.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_PickupActor.uasset'
+[2022.12.03-14.09.23:436][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 2.70 sec)
+[2022.12.03-14.09.23:442][471]AssetCheck: New page: Asset Save: BP_PickupActor
+[2022.12.03-14.09.23:442][471]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: ================================================
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Total job queries 77, among them cache hits 13 (16.88%)
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Tracking 61 distinct input hashes that result in 42 distinct outputs (68.85%)
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: RAM used: 0.41 MB (0.00 GB) of 2457.60 MB (2.40 GB) budget. Usage: 0.02%
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Shaders Compiled: 1
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Job execution time: average 3.18 s, max 3.18 s
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Job life time (pending + execution): average 3.28 s, max 3.28
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.28 s
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Average processing rate: 0.30 jobs/sec
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Total thread time: 0.26 s
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Total thread preprocess time: 0.04 s
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Percentage time preprocessing: 15.14%
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Effective parallelization: 0.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2022.12.03-14.10.26:582][299]LogShaderCompilers: Display: ================================================
+[2022.12.03-14.11.45:800][995]BlueprintLog: New page: Compile BP_PickupActor
+[2022.12.03-14.11.45:936][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.12.03-14.11.46:214][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.11.46:271][ 20]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_PickupActor
+[2022.12.03-14.11.46:272][ 20]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_PickupActorDD93FE0C45150F38A42EC9A289AB2E24.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_PickupActor.uasset'
+[2022.12.03-14.11.46:277][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 2.76 sec)
+[2022.12.03-14.11.46:284][ 20]AssetCheck: New page: Asset Save: BP_PickupActor
+[2022.12.03-14.11.46:284][ 20]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor
+[2022.12.03-14.12.49:119][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.12.03-14.12.49:124][396]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.040
+[2022.12.03-14.12.49:124][396]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_PickupActor] ([2] browsable assets)...
+[2022.12.03-14.12.49:135][396]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor]
+[2022.12.03-14.12.49:135][396]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_PickupActor]
+[2022.12.03-14.12.49:139][396]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_PickupActor_Auto3
+[2022.12.03-14.12.49:139][396]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_PickupActor_Auto30923CF0945F6638C21BA30B3C3C1F966.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_PickupActor_Auto3.uasset'
+[2022.12.03-14.12.49:139][396]LogFileHelpers: Auto-saving content packages took 0.015
+[2022.12.03-14.13.35:980][980]LogSlate: Window 'New Channel' being destroyed
+[2022.12.03-14.13.53:627][253]LogSlate: Window 'Project Settings' being destroyed
+[2022.12.03-14.14.09:396][972]BlueprintLog: New page: Compile BP_MainCharacter
+[2022.12.03-14.14.09:501][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.12.03-14.14.12:708][316]BlueprintLog: New page: Compile BP_MainCharacter
+[2022.12.03-14.14.12:797][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.12.03-14.14.13:680][405]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.14.13:742][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_MainCharacter" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2022.12.03-14.14.13:757][405]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_MainCharacter
+[2022.12.03-14.14.13:757][405]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacter809ADC72430E86A0CDC5BBB2CD576C6B.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset'
+[2022.12.03-14.14.13:763][405]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 2.84 sec)
+[2022.12.03-14.14.13:772][405]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2022.12.03-14.14.13:772][405]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.12.03-14.15.09:250][933]BlueprintLog: New page: Compile BP_PickupActor
+[2022.12.03-14.15.09:307][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.12.03-14.15.10:146][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.15.10:205][ 19]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_PickupActor
+[2022.12.03-14.15.10:206][ 19]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_PickupActor643725D74F499C6426A7DBA37426AF41.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_PickupActor.uasset'
+[2022.12.03-14.15.10:210][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 2.91 sec)
+[2022.12.03-14.15.10:220][ 19]AssetCheck: New page: Asset Save: BP_PickupActor
+[2022.12.03-14.15.10:220][ 19]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor
+[2022.12.03-14.17.02:416][436]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'AActor::GetTransform' [The specified module could not be found.]
+[2022.12.03-14.18.32:400][912]LogDerivedDataCache: C:/Users/rewri/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:31.206 and deleted 0 files with total size 0 MiB. Scanned 16733 files in 15851 folders with total size 1241 MiB.
+[2022.12.03-14.21.58:752][190]BlueprintLog: New page: Compile BP_PickupActor
+[2022.12.03-14.21.58:812][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2022.12.03-14.21.59:574][275]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.21.59:639][275]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_PickupActor
+[2022.12.03-14.21.59:640][275]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_PickupActorB5C0293B46B2115C84574C8DEDF368C1.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_PickupActor.uasset'
+[2022.12.03-14.21.59:645][275]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 2.98 sec)
+[2022.12.03-14.21.59:654][275]AssetCheck: New page: Asset Save: BP_PickupActor
+[2022.12.03-14.21.59:654][275]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor
+[2022.12.03-14.22.01:335][457]BlueprintLog: New page: Compile BP_MainCharacter
+[2022.12.03-14.22.01:415][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.12.03-14.22.02:024][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.22.02:084][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_MainCharacter" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2022.12.03-14.22.02:099][520]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_MainCharacter
+[2022.12.03-14.22.02:099][520]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacterF94467404B4E8E5A2979CCB9F3316A2E.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset'
+[2022.12.03-14.22.02:106][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 3.06 sec)
+[2022.12.03-14.22.02:114][520]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2022.12.03-14.22.02:114][520]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.12.03-14.22.09:462][360]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor_C
+[2022.12.03-14.22.09:462][360]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor_C
+[2022.12.03-14.22.09:465][360]LogActorFactory: Actor Factory spawned Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor as actor: BP_PickupActor_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PickupActor_C_0
+[2022.12.03-14.22.09:466][360]LogActorFactory: Actor Factory spawned Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor as actor: BP_PickupActor_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PickupActor_C_0
+[2022.12.03-14.22.09:469][360]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2022.12.03-14.22.10:058][417]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor_C
+[2022.12.03-14.22.10:058][417]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor_C
+[2022.12.03-14.22.10:062][417]LogActorFactory: Actor Factory spawned Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor as actor: BP_PickupActor_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PickupActor_C_UAID_FC3497A77842914F01_1812410103
+[2022.12.03-14.22.10:064][417]LogActorFactory: Actor Factory spawned Blueprint /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor as actor: BP_PickupActor_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PickupActor_C_UAID_FC3497A77842914F01_1812410103
+[2022.12.03-14.22.12:687][711]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-14.22.12:688][711]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-14.22.12:688][711]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.03-14.22.22:744][598]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.22.22:812][598]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/ThirdPersonMap/4/QN/7YSRYNUDOW2X4YDO2S5N19
+[2022.12.03-14.22.22:812][598]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/7YSRYNUDOW2X4YDO2S5N190FF1B86B412D4BBF717FDA9E40B48E87.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/__ExternalActors__/Maps/ThirdPersonMap/4/QN/7YSRYNUDOW2X4YDO2S5N19.uasset'
+[2022.12.03-14.22.22:821][598]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 3.14 sec)
+[2022.12.03-14.22.22:829][598]AssetCheck: New page: Asset Save: BP_PickupActor_C_UAID_FC3497A77842914F01_1812410103
+[2022.12.03-14.22.22:829][598]LogContentValidation: Display: Validating /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PickupActor_C_UAID_FC3497A77842914F01_1812410103
+[2022.12.03-14.22.24:944][845]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2022.12.03-14.22.24:944][845]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-14.23.18:287][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.12.03-14.23.19:970][181]LogSlate: Window 'Save Content' being destroyed
+[2022.12.03-14.23.24:862][610]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'AActor::GetOwner' [The specified module could not be found.]
+[2022.12.03-14.24.11:440][393]BlueprintLog: New page: Compile BP_BaseWeapon
+[2022.12.03-14.24.11:530][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2022.12.03-14.24.12:222][460]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.24.12:282][460]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon
+[2022.12.03-14.24.12:282][460]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseWeapon002B454249891CAD3DF000BB5D41D400.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseWeapon.uasset'
+[2022.12.03-14.24.12:286][460]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 3.20 sec)
+[2022.12.03-14.24.12:296][460]AssetCheck: New page: Asset Save: BP_BaseWeapon
+[2022.12.03-14.24.12:296][460]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2022.12.03-14.24.17:655][ 58]LogEditorViewport: Clicking Background
+[2022.12.03-14.24.19:006][201]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.03-14.24.19:011][201]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2022.12.03-14.24.19:012][201]LogWorldPartition: Display: GenerateStreaming started...
+[2022.12.03-14.24.19:012][201]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.12.03-14.24.19:012][201]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 55 us)
+[2022.12.03-14.24.19:012][201]LogWorldPartition: Display: GenerateStreaming took 150 us (total: 16 ms)
+[2022.12.03-14.24.19:012][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-14.24.19:012][201]PIE: New page: PIE session: ThirdPersonMap (3 Dec 2022, 14:24:19)
+[2022.12.03-14.24.19:034][201]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.12.03-14.24.19:037][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002787s)
+[2022.12.03-14.24.19:037][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002817s)
+[2022.12.03-14.24.19:037][201]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-14.24.19:038][201]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.12.03-14.24.19:038][201]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2022.12.03-14.24.19:038][201]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.03-14.24.19:038][201]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2022.12.03-14.24.19:038][201]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2022.12.03-14.24.19:039][201]LogWorldPartition: Display: WorldPartition initialize took 599 us (total: 1.86 sec)
+[2022.12.03-14.24.19:039][201]LogPlayLevel: PIE: World Init took: (0.001436s)
+[2022.12.03-14.24.19:085][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.12.03-14.24.19:089][201]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.12.03-14.24.19:089][201]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.03-14.24.19:089][201]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.03-14.24.19:089][201]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.03-14.24.19:089][201]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.03-14.24.19:089][201]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.03-14.24.19:089][201]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.03-14.24.19:089][201]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.03-14.24.19:089][201]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.03-14.24.19:090][201]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.03-14.24.19:090][201]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.03-14.24.19:090][201]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.03-14.24.19:092][201]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.03-14.24.19:280][201]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2022.12.03-14.24.19:280][201]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.03-14.24.19:280][201]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.03-14.24.19:280][201]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.03-14.24.19:281][201]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2022.12.03-14.24.19:281][201]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=9
+[2022.12.03-14.24.19:282][201]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2022.12.03-14.24.19:282][201]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2022.12.03-14.24.19:282][201]LogInit: FAudioDevice initialized.
+[2022.12.03-14.24.19:282][201]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonMap'.
+[2022.12.03-14.24.19:285][201]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.12.03-14.24.19:286][201]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.12.03-14.24.19
+[2022.12.03-14.24.19:286][201]LogWorld: Bringing up level for play took: 0.001168
+[2022.12.03-14.24.19:288][201]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2022.12.03-14.24.19:291][201]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.12.03-14.24.19:330][201]PIE: Server logged in
+[2022.12.03-14.24.19:330][201]PIE: Play in editor total start time 0.319 seconds.
+[2022.12.03-14.24.33:275][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-14.24.33:275][844]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.12.03-14.24.33:275][844]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-14.24.33:275][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-14.24.33:275][844]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2022.12.03-14.24.33:280][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.03-14.24.33:287][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-14.24.33:333][844]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.03-14.24.33:334][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.12.03-14.24.33:335][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.12.03-14.24.33:339][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-14.24.33:342][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.12.03-14.24.33:373][845]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2022.12.03-14.24.36:811][247]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.24.36:862][247]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/ThirdPersonMap/4/QN/7YSRYNUDOW2X4YDO2S5N19
+[2022.12.03-14.24.36:862][247]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/7YSRYNUDOW2X4YDO2S5N197EE3693643D71CD61A2A718F1B3CBCEB.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/__ExternalActors__/Maps/ThirdPersonMap/4/QN/7YSRYNUDOW2X4YDO2S5N19.uasset'
+[2022.12.03-14.24.36:868][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 3.26 sec)
+[2022.12.03-14.24.36:878][247]AssetCheck: New page: Asset Save: BP_PickupActor_C_UAID_FC3497A77842914F01_1812410103
+[2022.12.03-14.24.36:878][247]LogContentValidation: Display: Validating /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PickupActor_C_UAID_FC3497A77842914F01_1812410103
+[2022.12.03-14.24.55:290][735]LogContentBrowser: Deferred new asset file creation: BP_BaseWeapon_Child
+[2022.12.03-14.24.55:321][735]LogContentBrowser: Creating deferred item: BP_BaseWeapon_Child
+[2022.12.03-14.24.55:328][736]LogContentBrowser: Renaming the item being created (Deferred Item: BP_BaseWeapon_Child).
+[2022.12.03-14.24.58:202][862]LogContentBrowser: Attempting asset rename: BP_BaseWeapon_Child -> BP_BaseWeapon_Child
+[2022.12.03-14.24.58:208][862]LogContentBrowser: End creating deferred item BP_BaseWeapon_Child
+[2022.12.03-14.25.26:299][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.12.03-14.25.26:303][338]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.052
+[2022.12.03-14.25.26:304][338]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Child] ([2] browsable assets)...
+[2022.12.03-14.25.26:304][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Child]
+[2022.12.03-14.25.26:307][338]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Child_Auto4
+[2022.12.03-14.25.26:307][338]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseWeapon_Child_Auto4525511494EABBC44AC3D29947277236A.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Child_Auto4.uasset'
+[2022.12.03-14.25.26:308][338]LogFileHelpers: Auto-saving content packages took 0.004
+[2022.12.03-14.25.42:557][388]LogContentBrowser: Attempting asset rename: BP_BaseWeapon_Child -> BP_BaseWeapon_Child
+[2022.12.03-14.25.45:157][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.12.03-14.25.46:076][632]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.03-14.25.46:145][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.12.03-14.25.46:193][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.12.03-14.25.46:239][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.12.03-14.27.57:706][332]BlueprintLog: New page: Compile BP_BaseWeapon
+[2022.12.03-14.27.57:777][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2022.12.03-14.27.58:543][406]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.27.58:598][406]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon
+[2022.12.03-14.27.58:598][406]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseWeapon165892E246C71C6B5DEDEDAD7577F1AF.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseWeapon.uasset'
+[2022.12.03-14.27.58:602][406]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 3.32 sec)
+[2022.12.03-14.27.58:612][406]AssetCheck: New page: Asset Save: BP_BaseWeapon
+[2022.12.03-14.27.58:612][406]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2022.12.03-14.28.03:885][982]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword
+[2022.12.03-14.28.03:885][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-14.28.11:547][804]BlueprintLog: New page: Compile BP_HeavySword
+[2022.12.03-14.28.11:619][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.12.03-14.28.12:019][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.28.12:087][838]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_HeavySword
+[2022.12.03-14.28.12:088][838]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_HeavySword15463A3A49B779C9F45F7286BC4EE561.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_HeavySword.uasset'
+[2022.12.03-14.28.12:093][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 3.39 sec)
+[2022.12.03-14.28.12:103][838]AssetCheck: New page: Asset Save: BP_HeavySword
+[2022.12.03-14.28.12:103][838]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword
+[2022.12.03-14.29.52:171][146]BlueprintLog: New page: Compile BP_MainCharacter
+[2022.12.03-14.29.52:269][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.12.03-14.29.53:001][215]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.29.53:074][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_MainCharacter" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset" SILENT=true
+[2022.12.03-14.29.53:089][215]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_MainCharacter
+[2022.12.03-14.29.53:089][215]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_MainCharacter791DB92746A6C172D0F19E895FEDB62E.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/BP_MainCharacter.uasset'
+[2022.12.03-14.29.53:094][215]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 3.48 sec)
+[2022.12.03-14.29.53:104][215]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2022.12.03-14.29.53:104][215]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_MainCharacter.BP_MainCharacter
+[2022.12.03-14.30.37:654][587]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.03-14.30.37:660][587]LogContentBundle: [Container: ThirdPersonMap] Generating Streaming for 0 Content Bundles.
+[2022.12.03-14.30.37:660][587]LogWorldPartition: Display: GenerateStreaming started...
+[2022.12.03-14.30.37:660][587]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.12.03-14.30.37:660][587]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 61 us)
+[2022.12.03-14.30.37:661][587]LogWorldPartition: Display: GenerateStreaming took 145 us (total: 16 ms)
+[2022.12.03-14.30.37:661][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-14.30.37:661][587]PIE: New page: PIE session: ThirdPersonMap (3 Dec 2022, 14:30:37)
+[2022.12.03-14.30.37:683][587]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.12.03-14.30.37:686][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002838s)
+[2022.12.03-14.30.37:686][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002879s)
+[2022.12.03-14.30.37:686][587]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.03-14.30.37:687][587]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2022.12.03-14.30.37:687][587]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2022.12.03-14.30.37:687][587]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.03-14.30.37:687][587]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2022.12.03-14.30.37:688][587]LogContentBundle: [Container: ThirdPersonMap] Creating new contrainer.
+[2022.12.03-14.30.37:688][587]LogWorldPartition: Display: WorldPartition initialize took 629 us (total: 1.86 sec)
+[2022.12.03-14.30.37:688][587]LogPlayLevel: PIE: World Init took: (0.001609s)
+[2022.12.03-14.30.37:740][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.12.03-14.30.37:743][587]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.12.03-14.30.37:743][587]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.03-14.30.37:743][587]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.03-14.30.37:743][587]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.03-14.30.37:743][587]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.03-14.30.37:744][587]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.12.03-14.30.37:744][587]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.03-14.30.37:744][587]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.12.03-14.30.37:744][587]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.03-14.30.37:744][587]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.03-14.30.37:744][587]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.03-14.30.37:744][587]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.03-14.30.37:746][587]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.03-14.30.37:931][587]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2022.12.03-14.30.37:931][587]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.03-14.30.37:931][587]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.03-14.30.37:931][587]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.03-14.30.37:932][587]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.12.03-14.30.37:932][587]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=10
+[2022.12.03-14.30.37:933][587]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.12.03-14.30.37:933][587]LogInit: FAudioDevice initialized.
+[2022.12.03-14.30.37:933][587]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2022.12.03-14.30.37:933][587]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.12.03-14.30.37:936][587]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2022.12.03-14.30.37:937][587]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2022.12.03-14.30.37
+[2022.12.03-14.30.37:937][587]LogWorld: Bringing up level for play took: 0.001156
+[2022.12.03-14.30.37:939][587]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2022.12.03-14.30.37:941][587]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2022.12.03-14.30.37:942][587]PIE: Server logged in
+[2022.12.03-14.30.37:942][587]PIE: Play in editor total start time 0.283 seconds.
+[2022.12.03-14.30.44:694][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-14.30.44:694][387]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2022.12.03-14.30.44:694][387]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.03-14.30.44:694][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-14.30.44:694][387]LogContentBundle: [Container: ThirdPersonMap] Deleting container.
+[2022.12.03-14.30.44:698][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.03-14.30.44:705][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.03-14.30.44:755][387]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.03-14.30.44:755][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.12.03-14.30.44:757][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.12.03-14.30.44:760][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.03-14.30.44:763][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.12.03-14.30.44:793][388]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.12.03-14.31.17:801][816]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.12.03-14.31.17:820][816]LogContentBrowser: Creating deferred item: NewFolder
+[2022.12.03-14.31.17:827][817]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.12.03-14.31.19:290][993]LogContentBrowser: Attempting asset rename: NewFolder -> Enums
+[2022.12.03-14.31.19:290][993]LogContentBrowser: End creating deferred item NewFolder
+[2022.12.03-14.31.26:715][457]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2022.12.03-14.31.26:720][457]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2022.12.03-14.31.26:743][459]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2022.12.03-14.31.43:706][299]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E_Weapons
+[2022.12.03-14.31.43:709][299]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2022.12.03-14.31.44:891][441]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_Weapons.E_Weapons
+[2022.12.03-14.32.09:271][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.32.09:326][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/Enums/E_Weapons" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Enums/E_Weapons.uasset" SILENT=true
+[2022.12.03-14.32.09:327][707]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Enums/E_Weapons
+[2022.12.03-14.32.09:327][707]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/E_WeaponsA703AF934BDD28A5B76A4DB826854E86.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Enums/E_Weapons.uasset'
+[2022.12.03-14.32.09:331][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 3.54 sec)
+[2022.12.03-14.32.09:340][707]AssetCheck: New page: Asset Save: E_Weapons
+[2022.12.03-14.32.09:340][707]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_Weapons.E_Weapons
+[2022.12.03-14.32.16:084][814]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.32.16:143][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/Enums/E_Weapons" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Enums/E_Weapons.uasset" SILENT=true
+[2022.12.03-14.32.16:144][814]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Enums/E_Weapons
+[2022.12.03-14.32.16:144][814]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/E_WeaponsB80397F54515F9199C5DA6821962F069.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Enums/E_Weapons.uasset'
+[2022.12.03-14.32.16:149][814]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 3.61 sec)
+[2022.12.03-14.32.16:159][814]AssetCheck: New page: Asset Save: E_Weapons
+[2022.12.03-14.32.16:159][814]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_Weapons.E_Weapons
+[2022.12.03-14.32.16:616][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.32.16:658][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/Enums/E_Weapons" FILE="../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Enums/E_Weapons.uasset" SILENT=true
+[2022.12.03-14.32.16:659][861]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Enums/E_Weapons
+[2022.12.03-14.32.16:659][861]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/E_WeaponsBE719BD04ECA20B6F6310AA42E84A04C.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Enums/E_Weapons.uasset'
+[2022.12.03-14.32.16:663][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 3.66 sec)
+[2022.12.03-14.32.16:673][861]AssetCheck: New page: Asset Save: E_Weapons
+[2022.12.03-14.32.16:673][861]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_Weapons.E_Weapons
+[2022.12.03-14.32.47:772][995]BlueprintLog: New page: Compile BP_BaseWeapon
+[2022.12.03-14.32.47:879][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.12.03-14.32.48:710][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.32.48:764][ 72]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon
+[2022.12.03-14.32.48:764][ 72]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseWeapon295426CF46F4C5886CC143AE6401DA40.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseWeapon.uasset'
+[2022.12.03-14.32.48:769][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 3.71 sec)
+[2022.12.03-14.32.48:779][ 72]AssetCheck: New page: Asset Save: BP_BaseWeapon
+[2022.12.03-14.32.48:779][ 72]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2022.12.03-14.32.55:325][336]LogViewport: Scene viewport resized to 1141x686, mode Windowed.
+[2022.12.03-14.33.29:824][951]BlueprintLog: New page: Compile BP_BaseWeapon
+[2022.12.03-14.33.29:906][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.12.03-14.33.30:464][  9]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.33.30:513][  9]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon
+[2022.12.03-14.33.30:514][  9]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_BaseWeaponD7F054874F120E807D07728FAAEE6F04.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_BaseWeapon.uasset'
+[2022.12.03-14.33.30:518][  9]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 3.77 sec)
+[2022.12.03-14.33.30:528][  9]AssetCheck: New page: Asset Save: BP_BaseWeapon
+[2022.12.03-14.33.30:528][  9]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2022.12.03-14.33.44:922][ 35]BlueprintLog: New page: Compile BP_HeavySword
+[2022.12.03-14.33.44:996][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.12.03-14.33.45:717][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.33.45:787][109]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_HeavySword
+[2022.12.03-14.33.45:788][109]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/BP_HeavySword25B374F149C678F8C73BD48A5EEE8841.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/CombatSystem/Blueprints/Actors/BP_HeavySword.uasset'
+[2022.12.03-14.33.45:793][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 3.84 sec)
+[2022.12.03-14.33.45:803][109]AssetCheck: New page: Asset Save: BP_HeavySword
+[2022.12.03-14.33.45:803][109]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_HeavySword.BP_HeavySword
+[2022.12.03-14.34.59:510][187]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.12.03-14.34.59:820][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.12.03-14.35.08:001][187]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.03-14.35.34:917][349]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2022.12.03-14.35.34:977][349]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/ThirdPersonMap/4/QN/7YSRYNUDOW2X4YDO2S5N19
+[2022.12.03-14.35.34:977][349]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/7YSRYNUDOW2X4YDO2S5N190CF4ED9044C2D163DFEB20BA8A7651E7.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/__ExternalActors__/Maps/ThirdPersonMap/4/QN/7YSRYNUDOW2X4YDO2S5N19.uasset'
+[2022.12.03-14.35.34:983][349]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 3.91 sec)
+[2022.12.03-14.35.34:992][349]AssetCheck: New page: Asset Save: BP_PickupActor_C_UAID_FC3497A77842914F01_1812410103
+[2022.12.03-14.35.34:992][349]LogContentValidation: Display: Validating /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PickupActor_C_UAID_FC3497A77842914F01_1812410103
