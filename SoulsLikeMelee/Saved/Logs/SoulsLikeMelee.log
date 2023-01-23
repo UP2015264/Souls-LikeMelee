@@ -3044,3 +3044,26 @@ Script Stack (0 frames) :
 [2023.01.23-14.28.05:160][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
 [2023.01.23-14.28.05:167][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
 [2023.01.23-14.28.05:193][812]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.01.23-14.28.55:263][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.01.23-14.28.56:381][914]LogSlate: Window 'Save Content' being destroyed
+[2023.01.23-14.28.56:387][914]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.23-14.28.56:436][914]LogSavePackage: Moving output files for package: /Game/Mixamo/Animation/Movement/Walking/great_sword_strafe__2__v4
+[2023.01.23-14.28.56:436][914]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/great_sword_strafe__2__v44AFB07A2449CB62E2FA4BEBABF92D75A.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Mixamo/Animation/Movement/Walking/great_sword_strafe__2__v4.uasset'
+[2023.01.23-14.28.56:441][914]LogSavePackage: Moving output files for package: /Game/Mixamo/Animation/Movement/Walking/great_sword_strafe_v4
+[2023.01.23-14.28.56:441][914]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/great_sword_strafe_v446DEE20F421450F8D4C28EB7F7FB8E36.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Mixamo/Animation/Movement/Walking/great_sword_strafe_v4.uasset'
+[2023.01.23-14.28.56:447][914]LogSavePackage: Moving output files for package: /Game/Mixamo/Animation/Movement/Walking/great_sword_turn__2__v4
+[2023.01.23-14.28.56:447][914]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/great_sword_turn__2__v43CDE26AF43D6A139F63DE4AFF04ACECD.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Mixamo/Animation/Movement/Walking/great_sword_turn__2__v4.uasset'
+[2023.01.23-14.28.56:453][914]LogSavePackage: Moving output files for package: /Game/Mixamo/Animation/Movement/Walking/great_sword_turn_v4
+[2023.01.23-14.28.56:453][914]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/great_sword_turn_v4880D8BB44D12EFD0880DC6A6BF447778.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Mixamo/Animation/Movement/Walking/great_sword_turn_v4.uasset'
+[2023.01.23-14.28.56:459][914]LogSavePackage: Moving output files for package: /Game/Mixamo/Animation/Movement/Walking/great_sword_walk__2__v4
+[2023.01.23-14.28.56:459][914]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/great_sword_walk__2__v41F9F098E4C2BAE31124BC39F971E970F.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Mixamo/Animation/Movement/Walking/great_sword_walk__2__v4.uasset'
+[2023.01.23-14.28.56:465][914]LogSavePackage: Moving output files for package: /Game/Mixamo/Animation/Movement/Walking/great_sword_walk_v4
+[2023.01.23-14.28.56:465][914]LogSavePackage: Moving '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Saved/great_sword_walk_v4975D42D5475AD293A8B0FEB7F26356FF.tmp' to '../../../../Projects/Souls-LikeMelee/SoulsLikeMelee/Content/Mixamo/Animation/Movement/Walking/great_sword_walk_v4.uasset'
+[2023.01.23-14.28.56:471][914]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 2.88 sec)
+[2023.01.23-14.28.56:477][914]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.23-14.28.56:477][914]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Mixamo/Animation/Movement/Walking/great_sword_turn_v4.great_sword_turn_v4
+[2023.01.23-14.28.56:477][914]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Mixamo/Animation/Movement/Walking/great_sword_turn__2__v4.great_sword_turn__2__v4
+[2023.01.23-14.28.56:477][914]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Mixamo/Animation/Movement/Walking/great_sword_strafe__2__v4.great_sword_strafe__2__v4
+[2023.01.23-14.28.56:477][914]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Mixamo/Animation/Movement/Walking/great_sword_strafe_v4.great_sword_strafe_v4
+[2023.01.23-14.28.56:477][914]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Mixamo/Animation/Movement/Walking/great_sword_walk_v4.great_sword_walk_v4
+[2023.01.23-14.28.56:477][914]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Mixamo/Animation/Movement/Walking/great_sword_walk__2__v4.great_sword_walk__2__v4
